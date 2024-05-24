@@ -63,16 +63,6 @@ body {
     outline: none; /* Supprimer la bordure de mise au point */
 }
 
-.color-picker::-webkit-color-swatch-wrapper {
-    padding: 0;
-}
-
-.color-picker::-webkit-color-swatch {
-    border: none;
-    border-radius: 5px;
-    padding: 5px;
-}
-
 input[type="button"] {
     background-color: #007bff; /* Couleur de fond */
     color: #ffffff; /* Couleur du texte */
