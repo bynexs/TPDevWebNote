@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.panel {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.field-input {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.field-input label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color: #666;
+    background: #fff;
+}
+
+.field-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.field-input input:focus {
+    border-color: #007bff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-Signin {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-Signin:hover {
+    background: #0056b3;
+}
+
+.btn-Signup {
+    background: #056812;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-Signup:hover {
+    background: #565e64;
+} 
+
+.validate{
+    background: #0885c4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
